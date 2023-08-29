@@ -10,16 +10,3 @@ body {
 h3 {
     color: rgb(223, 224, 224);
 }
-
-/* article 1 Display Info styling */
-.a1 {
-    color: rgb(223, 224, 224);
-
-    width: 10%;
-    height: auto;
-}
-
-/* article 2 Contact Info styling */
-.a2 {
-    color: rgb(223, 223, 224);
-}

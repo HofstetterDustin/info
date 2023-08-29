@@ -1,24 +1,51 @@
-.blue {
-    width: fit-content;
-    height: auto;
-}
-
-.caro {
-    max-width: 100%;
-    height: auto;
-}
-
-.container-bg {
-    width: 100%;
-    padding-top: 56.25%;
-    position: relative;
-}
-
-.parallax {
-    background-image: "/Images/placeholders/pattern.jpg";
+body {
     height: 100%;
+    line-height: 1.8;
+}
+
+.blue,
+.copper,
+.green,
+.red {
+    max-width: 1280px;
+    height: auto;
+}
+
+
+/* Parallax Effect */
+.bgimg1,
+.bgimg2,
+.bgimg3,
+.bgimg4 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bgimg1 {
+    background-image: url("/Images/placeholders/Blue Background_edited-1 copy.jpg");
+    min-height: 400px;
+}
+
+.bgimg2 {
+    background-image: url("/Images/placeholders/Green Background.jpg");
+    min-height: 400px;
+}
+
+.bgimg3 {
+    background-image: url("/Images/placeholders/Copper Background_edited-2.jpg");
+    min-height: 400px;
+}
+
+.bgimg4 {
+    background-image: url("/Images/placeholders/Red Background_edited-3.jpg");
+    min-height: 400px;
+}
+
+.dark {
+    color: rgb(223, 224, 224);
+    background-color: rgb(39, 35, 28);
+}
+
+/* 601×962 through 1280×800 */
