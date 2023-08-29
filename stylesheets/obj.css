@@ -1,0 +1,24 @@
+.blue {
+    width: fit-content;
+    height: auto;
+}
+
+.caro {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-bg {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.parallax {
+    background-image: "/Images/placeholders/pattern.jpg";
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
