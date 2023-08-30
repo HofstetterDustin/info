@@ -10,3 +10,45 @@ body {
 h3 {
     color: rgb(223, 224, 224);
 }
+
+.nn-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(223, 224, 224);
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.nn1-white {
+    color: rgb(39, 35, 28) !important;
+    background-color: rgb(47, 47, 47) !important
+}
+
+.nn1-hover-white:hover {
+    color: rgb(39, 35, 28) !important;
+    background-color: rgb(47, 47, 47) !important
+}
+
+/* Bar graph styling */
+.bGraph {
+    color: rgb(223, 224, 224);
+    background-color: rgb(39, 35, 28)
+}
+
+.bGImage,
+.w3-hover-dark-grey:hover,
+.w3-dark-gray,
+.w3-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #0055ffb1 !important
+}
+
+.objPad {
+    padding-bottom: 40px;
+}
