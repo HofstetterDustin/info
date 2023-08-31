@@ -31,6 +31,16 @@ html {
     padding-bottom: 16px !important;
 }
 
+.h4-padding {
+    padding-top: 5px !important;
+    padding-bottom: 16px !important;
+}
+
+.h3-container,
+.h3-panel {
+    padding: 0.90em 16px
+}
+
 .h3-center {
     text-align: center !important;
     padding-left: 20px;
