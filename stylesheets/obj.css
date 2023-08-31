@@ -49,12 +49,17 @@ body {
 
 .dark {
     color: rgb(223, 224, 224);
-    background-color: rgb(39, 35, 28);
+    background-color: rgb(43, 43, 42);
 }
 
 .h3-padding-4816 {
     padding-top: 48px !important;
-    padding-bottom: 16px !important
+    padding-bottom: 16px !important;
+}
+
+.h3-center {
+    text-align: center !important;
+    padding-left: 20px;
 }
 
 /* 601×962 through 1280×800 cam3r0n r1chard50n */

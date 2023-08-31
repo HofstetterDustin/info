@@ -33,3 +33,8 @@ fetch('/profiles/skills.html')
         document.getElementById('profileSkills').innerHTML = content;
     });
 
+fetch('/profiles/expSum.html')
+    .then(response => response.text())
+    .then(content => {
+        document.getElementById('expSum').innerHTML = content;
+    });

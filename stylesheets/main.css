@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(39, 35, 28);
+    background-color: rgb(43, 43, 42);
 }
 
 /*nav bar styling*/
@@ -27,18 +27,18 @@ h3 {
 
 .nn1-white {
     color: rgb(39, 35, 28) !important;
-    background-color: rgb(47, 47, 47) !important
+    background-color: rgb(43, 43, 42) !important
 }
 
 .nn1-hover-white:hover {
     color: rgb(39, 35, 28) !important;
-    background-color: rgb(47, 47, 47) !important
+    background-color: rgb(43, 43, 42) !important
 }
 
 /* Bar graph styling */
 .bGraph {
     color: rgb(223, 224, 224);
-    background-color: rgb(39, 35, 28)
+    background-color: rgb(43, 43, 42)
 }
 
 .bGImage,
