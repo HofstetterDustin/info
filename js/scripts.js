@@ -38,3 +38,9 @@ fetch('/profiles/expSum.html')
     .then(content => {
         document.getElementById('expSum').innerHTML = content;
     });
+
+fetch('/profiles/projSum.html')
+    .then(response => response.text())
+    .then(content => {
+        document.getElementById('projSum').innerHTML = content;
+    });
