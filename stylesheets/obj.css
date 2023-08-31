@@ -24,23 +24,27 @@ body {
 }
 
 .bgimg1 {
-    background-image: url("/Images/placeholders/Blue Background_edited-1 copy.jpg");
-    min-height: 400px;
+    background-image: url("/Images/moon/grand.jpg");
+    height: 800px;
+    width: 100%;
 }
 
 .bgimg2 {
-    background-image: url("/Images/placeholders/Green Background.jpg");
-    min-height: 400px;
+    background-image: url("/Images/moon/marsBgIm2.jpg");
+    height: 800px;
+    width: 100%;
 }
 
 .bgimg3 {
-    background-image: url("/Images/placeholders/Copper Background_edited-2.jpg");
-    min-height: 400px;
+    background-image: url("/Images/moon/craters.jpg");
+    height: 800px;
+    width: 100%;
 }
 
 .bgimg4 {
-    background-image: url("/Images/placeholders/Red Background_edited-3.jpg");
-    min-height: 400px;
+    background-image: url("/Images/moon/moab.jpg");
+    height: 800px;
+    width: 100%;
 }
 
 .dark {
@@ -48,4 +52,9 @@ body {
     background-color: rgb(39, 35, 28);
 }
 
-/* 601×962 through 1280×800 */
+.h3-padding-4816 {
+    padding-top: 48px !important;
+    padding-bottom: 16px !important
+}
+
+/* 601×962 through 1280×800 cam3r0n r1chard50n */
