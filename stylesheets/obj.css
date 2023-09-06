@@ -1,0 +1,52 @@
+body {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.blue,
+.copper,
+.green,
+.red {
+    max-width: 1280px;
+    height: auto;
+}
+
+
+/* Parallax Effect */
+.bgimg1,
+.bgimg2,
+.bgimg3,
+.bgimg4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg1 {
+    background-image: url("/Images/moon/grand.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+.bgimg2 {
+    background-image: url("/Images/moon/marsBgIm2.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+.bgimg3 {
+    background-image: url("/Images/moon/craters.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+.bgimg4 {
+    background-image: url("/Images/moon/moab.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+/* End of parallax styling */
+
+/* 601×962 through 1280×800 cam3r0n r1chard50n */
