@@ -9,51 +9,61 @@
 </head>
 
 <body>
-    <p class="construct">*** under construction ***</p>
-    <div class="w3-wide">
-        <table class="w3-cell-row">
-            <tr>
-                <td>
-                    <h6 class="w3-button w3-click" id="odps"><b>Orbiter Dash Panel Simulation</b></h6>
-                </td>
-                <td>
-                    <p>summary of project.summary of project.summary of project.summary of project.summary of project.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h6 class="w3-button" id="botd"><b>Battle Droid</b></h6>
-                </td>
-                <td>
-                    <p>summary of project.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h6 class="w3-button" id="chop"><b>Chopper Robot</b></h6>
-                </td>
-                <td>
-                    <p class="dark">summary of project.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h6 class="w3-button" id="jem"><b>Jet Engine Model</b></h6>
-                </td>
-                <td>
-                    <p class="dark">summary of project.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h6 class="w3-button" id="adpig"><b>Authentic Dyes and Pigments</b></h6>
-                </td>
-                <td>
-                    <p class="dark">summary of research.</p>
-                </td>
-            </tr>
-        </table>
+    <div class="dark">
+        <p class="construct">*** buttons under construction ***</p>
+        <div class="w3-wide">
+            <table class="w3-cell-row">
+                <tr>
+                    <td>
+                        <button class="w3-button" id="odp" onclick="loadOdp()">
+                            <h6><b>Orbiter Dash Panels</b></h6>
+                    </td>
+                    <td>
+                        <p><b>S</b>pace Shuttle Orbiter simulation program with physical dash panels operations.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="w3-button w3-click" id="bd" onclick="loadBd()">
+                            <h6><b>Battle Droid BD-1</b></h6>
+                    </td>
+                    <td>
+                        <p><b>F</b>abrication of a full size Battle Droid from the movie Star Wars: Drone Wars.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="w3-button w3-click" id="chop" onclick="loadChop()">
+                            <h6><b>Chopper C1-10P</b></h6>
+                    </td>
+                    <td>
+                        <p><b>F</b>abrication of a full size Astromech from the movie Star Wars: Rebels'.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="w3-button w3-click" id="jem" onclick="loadJem()">
+                            <h6><b>Jet Engine Model</b></h6>
+                    </td>
+                    <td>
+                        <p><b>M</b>odeling a hand-made jet engine powered by an electric motor for purposes of
+                            creating different thrust measurements.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="w3-button w3-click" id="adp" onclick="loadAdp()">
+                            <h6><b>Authentic </b></h6>
+                            <h6><b>Dyes & Pigments</b></h6>
+                    </td>
+                    <td>
+                        <p><b>C</b>reation of original dyes and pigments from the 16th - 17th century for authentic
+                            colors and applications on historical furniture.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 <script src="js/scripts.js"></script>
