@@ -27,11 +27,11 @@ fetch('/profiles/objCon.html')
     });
 
 /* too many button click to make it a button*/
-fetch('/profiles/skills.html')
+/*fetch('/profiles/skills.html')
     .then(response => response.text())
     .then(content => {
         document.getElementById('profileSkills').innerHTML = content;
-    });
+    }); */
 
 fetch('/profiles/expSum.html')
     .then(response => response.text())
