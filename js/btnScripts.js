@@ -1,17 +1,4 @@
-/*function btnClick() {
-    var x = document.getElementById();
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}*/
-
-/* when the btn Orbiter Dash Panels is clicked, 
-then display odpSim.html page at location '/profiles/objective.html' 
-
-document.getElementById("odp").addEventListener("click", openOdp); */
-
+/* Projects page: buttons to load each project main page */
 function loadOdp() {
     var objectiveDiv = document.getElementById("objective");
     var url = "/projects/odpSim.html";
@@ -24,8 +11,71 @@ function loadOdp() {
             console.log("odp btn success");
         })
         .catch(function (error) {
-            console.log("Error:", error);
+            console.log("Error:odp btn failed", error);
         });
+};
 
+function loadBd() {
+    var objectiveDiv = document.getElementById("objective");
+    var url = "/projects/batDroid.html";
+    fetch(url)
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (data) {
+            objectiveDiv.innerHTML = data
+            console.log("bd btn success");
+        })
+        .catch(function (error) {
+            console.log("Error:bd btn failed", error);
+        });
+};
+
+function loadChop() {
+    var objectiveDiv = document.getElementById("objective");
+    var url = "/projects/chopBot.html";
+    fetch(url)
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (data) {
+            objectiveDiv.innerHTML = data
+            console.log("chop btn success");
+        })
+        .catch(function (error) {
+            console.log("Error:chop btn failed", error);
+        });
+};
+
+function loadJem() {
+    var objectiveDiv = document.getElementById("objective");
+    var url = "/projects/jEModel.html";
+    fetch(url)
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (data) {
+            objectiveDiv.innerHTML = data
+            console.log("jem btn success");
+        })
+        .catch(function (error) {
+            console.log("Error:jem btn failed", error);
+        });
+};
+
+function loadAdp() {
+    var objectiveDiv = document.getElementById("objective");
+    var url = "/projects/adp.html";
+    fetch(url)
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (data) {
+            objectiveDiv.innerHTML = data
+            console.log("adp btn success");
+        })
+        .catch(function (error) {
+            console.log("Error:adp btn failed", error);
+        });
 };
 
