@@ -1,7 +1,7 @@
 /* Projects page: buttons to load each project main page */
 function loadOdp() {
     var objectiveDiv = document.getElementById("objective");
-    var url = "/projects/odpSim.html";
+    var url = "/projects/odp/odpSim.html";
     fetch(url)
         .then(function (response) {
             return response.text();
@@ -17,7 +17,7 @@ function loadOdp() {
 
 function loadBd() {
     var objectiveDiv = document.getElementById("objective");
-    var url = "/projects/batDroid.html";
+    var url = "/projects/bd1/batDroid.html";
     fetch(url)
         .then(function (response) {
             return response.text();
@@ -33,7 +33,7 @@ function loadBd() {
 
 function loadChop() {
     var objectiveDiv = document.getElementById("objective");
-    var url = "/projects/chopBot.html";
+    var url = "/projects/amech/chopBot.html";
     fetch(url)
         .then(function (response) {
             return response.text();
@@ -49,7 +49,7 @@ function loadChop() {
 
 function loadJem() {
     var objectiveDiv = document.getElementById("objective");
-    var url = "/projects/jEModel.html";
+    var url = "/projects/jet/jEModel.html";
     fetch(url)
         .then(function (response) {
             return response.text();
@@ -65,7 +65,7 @@ function loadJem() {
 
 function loadAdp() {
     var objectiveDiv = document.getElementById("objective");
-    var url = "/projects/adp.html";
+    var url = "/projects/adp/adp.html";
     fetch(url)
         .then(function (response) {
             return response.text();
