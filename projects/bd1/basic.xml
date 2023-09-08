@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <productInfo>Production Information
+        <title>B1-series battle droid</title>
+        <aka>
+            <ul>
+                <li>Standard Battle Droid</li>
+                <li>Clankers</li>
+                <li>Tinnies</li>
+            </ul>
+        </aka>
+        <creator>Geonosians</creator>
+        <manufacturer>
+            <subBusiness>Baktoid Combat Automata / Baktoid Armor Workshop</subBusiness>
+            <parentBusiness>Geonosis Industries</parentBusiness>
+        </manufacturer>
+        <manuLocations>
+            <ul>
+                <li>Geonosian droid factories, Geonosis</li>
+                <li>Kudo Droid Foundry, Kudo III</li>
+                <li>Akiva Droid Factory, Akiva</li>
+            </ul>
+        </manuLocations>
+        <productLine>
+            <ul>
+                <li>B-series battle droid</li>
+                <li>Neimoidian battle droid</li>
+            </ul>
+        </productLine>
+        <class>Battle Droid</class>
+        <degree>Fourth-degree droid</degree>
+    </productInfo>
+    <techInfo>Technical Specifications
+        <height>
+            <en>6 feet 3 inches</en>
+            <m>1.93 meters</m>
+        </height>
+        <mass>65 kilograms</mass>
+        <gender>Male programming</gender>
+        <sensorColor>black</sensorColor>
+        <platingColor>
+            <ul>
+                <li>Bone-white</li>
+                <li>Rust brown</li>
+                <li>Light grey</li>
+            </ul>
+        </platingColor>
+        <armament>
+            <ul>
+                <li>E-5 blaster rifle</li>
+                <li>Radiation Cannon</li>
+                <li>Electropole</li>
+                <li>Thermal detonators</li>
+            </ul>
+        </armament>
+        <equipment>
+            <ul>
+                <li>Comlink booster pack</li>
+                <li>Integrated Comms Antenna</li>
+                <li>Datapad</li>
+                <li>Macrobinoculars</li>
+            </ul>
+        </equipment>
+    </techInfo>
+
+</root>
